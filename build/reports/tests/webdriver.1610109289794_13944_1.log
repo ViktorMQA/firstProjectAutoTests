@@ -1,0 +1,237 @@
+[1610109289.957][INFO]: Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 42063
+[1610109289.957][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1610109290.653][INFO]: [f475f8a2c388aa8e9fe2e92ac16f08f2] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "acceptInsecureCerts": true,
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage", "--no-sandbox" ],
+            "excludeSwitches": [ "enable-automation", "load-extension" ],
+            "extensions": [  ],
+            "prefs": {
+               "credentials_enable_service": false,
+               "download.default_directory": "C:\\Users\\v.muzyka\\IdeaProjects\\selenium\\build\\downloads\\1610109288859_13944_1",
+               "plugins.always_open_pdf_externally": true,
+               "profile.default_content_setting_values.automatic_downloads": 1
+            }
+         },
+         "pageLoadStrategy": "normal"
+      } ]
+   },
+   "desiredCapabilities": {
+      "acceptInsecureCerts": true,
+      "acceptSslCerts": true,
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage", "--no-sandbox" ],
+         "excludeSwitches": [ "enable-automation", "load-extension" ],
+         "extensions": [  ],
+         "prefs": {
+            "credentials_enable_service": false,
+            "download.default_directory": "C:\\Users\\v.muzyka\\IdeaProjects\\selenium\\build\\downloads\\1610109288859_13944_1",
+            "plugins.always_open_pdf_externally": true,
+            "profile.default_content_setting_values.automatic_downloads": 1
+         }
+      },
+      "handlesAlerts": true,
+      "javascriptEnabled": true,
+      "pageLoadStrategy": "normal",
+      "takesScreenshot": true
+   }
+}
+[1610109290.656][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "credentials_enable_service": false,
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "download": {
+      "default_directory": "C:\\Users\\v.muzyka\\IdeaProjects\\selenium\\build\\downloads\\1610109288859_13944_1"
+   },
+   "plugins": {
+      "always_open_pdf_externally": true
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "automatic_downloads": 1,
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1610109290.661][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1610109290.663][INFO]: Launching chrome: "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --disable-background-networking --disable-backgrounding-occluded-windows --disable-client-side-phishing-detection --disable-default-apps --disable-dev-shm-usage --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-blink-features=ShadowDOMV0 --enable-logging --ignore-certificate-errors --log-level=0 --no-first-run --no-sandbox --no-service-autorun --password-store=basic --proxy-bypass-list=<-loopback> --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\V8F7D~1.MUZ\AppData\Local\Temp\scoped_dir14400_774562989" data:,
+[1610109291.152][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1610109293.187][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1610109295.217][INFO]: [f475f8a2c388aa8e9fe2e92ac16f08f2] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": true,
+      "browserName": "chrome",
+      "browserVersion": "87.0.4280.141",
+      "chrome": {
+         "chromedriverVersion": "87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761})",
+         "userDataDir": "C:\\Users\\V8F7D~1.MUZ\\AppData\\Local\\Temp\\scoped_dir14400_774562989"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:62219"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "windows",
+      "proxy": {
+
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "f475f8a2c388aa8e9fe2e92ac16f08f2"
+}
+[1610109295.300][INFO]: [f475f8a2c388aa8e9fe2e92ac16f08f2] COMMAND SetWindowRect {
+   "height": 768,
+   "width": 1366
+}
+[1610109295.300][INFO]: Waiting for pending navigations...
+[1610109295.302][INFO]: Done waiting for pending navigations. Status: ok
+[1610109295.410][INFO]: Waiting for pending navigations...
+[1610109295.413][INFO]: Done waiting for pending navigations. Status: ok
+[1610109295.413][INFO]: [f475f8a2c388aa8e9fe2e92ac16f08f2] RESPONSE SetWindowRect {
+   "height": 770,
+   "width": 1368,
+   "x": 8,
+   "y": 8
+}
+[1610109295.425][INFO]: [f475f8a2c388aa8e9fe2e92ac16f08f2] COMMAND SetTimeouts {
+   "pageLoad": 30000
+}
+[1610109295.425][INFO]: [f475f8a2c388aa8e9fe2e92ac16f08f2] RESPONSE SetTimeouts
+[1610109295.449][INFO]: [f475f8a2c388aa8e9fe2e92ac16f08f2] COMMAND Navigate {
+   "url": "https://unicheck.com/login/education"
+}
+[1610109295.449][INFO]: Waiting for pending navigations...
+[1610109295.451][INFO]: Done waiting for pending navigations. Status: ok
+[1610109295.734][INFO]: Waiting for pending navigations...
+[1610109296.958][INFO]: Done waiting for pending navigations. Status: ok
+[1610109296.958][INFO]: [f475f8a2c388aa8e9fe2e92ac16f08f2] RESPONSE Navigate
+[1610109296.962][INFO]: [f475f8a2c388aa8e9fe2e92ac16f08f2] COMMAND MaximizeWindow {
+
+}
+[1610109296.962][INFO]: Waiting for pending navigations...
+[1610109296.963][INFO]: Done waiting for pending navigations. Status: ok
+[1610109297.076][INFO]: Waiting for pending navigations...
+[1610109297.077][INFO]: Done waiting for pending navigations. Status: ok
+[1610109297.078][INFO]: [f475f8a2c388aa8e9fe2e92ac16f08f2] RESPONSE MaximizeWindow {
+   "height": 840,
+   "width": 1552,
+   "x": -8,
+   "y": -8
+}
+[1610109297.081][INFO]: [f475f8a2c388aa8e9fe2e92ac16f08f2] COMMAND DeleteCookie {
+   "name": "language"
+}
+[1610109297.081][INFO]: Waiting for pending navigations...
+[1610109297.082][INFO]: Done waiting for pending navigations. Status: ok
+[1610109297.090][INFO]: Waiting for pending navigations...
+[1610109297.090][INFO]: Done waiting for pending navigations. Status: ok
+[1610109297.090][INFO]: [f475f8a2c388aa8e9fe2e92ac16f08f2] RESPONSE DeleteCookie
+[1610109297.097][INFO]: [f475f8a2c388aa8e9fe2e92ac16f08f2] COMMAND AddCookie {
+   "cookie": {
+      "httpOnly": false,
+      "name": "language",
+      "path": "/",
+      "secure": false,
+      "value": "en_US"
+   }
+}
+[1610109297.097][INFO]: Waiting for pending navigations...
+[1610109297.098][INFO]: Done waiting for pending navigations. Status: ok
+[1610109297.107][INFO]: Waiting for pending navigations...
+[1610109297.119][INFO]: Done waiting for pending navigations. Status: ok
+[1610109297.119][INFO]: [f475f8a2c388aa8e9fe2e92ac16f08f2] RESPONSE AddCookie
+[1610109297.127][INFO]: [f475f8a2c388aa8e9fe2e92ac16f08f2] COMMAND GetTitle {
+
+}
+[1610109297.127][INFO]: Waiting for pending navigations...
+[1610109297.131][INFO]: Done waiting for pending navigations. Status: ok
+[1610109297.140][INFO]: Waiting for pending navigations...
+[1610109297.141][INFO]: Done waiting for pending navigations. Status: ok
+[1610109297.141][INFO]: [f475f8a2c388aa8e9fe2e92ac16f08f2] RESPONSE GetTitle "Увійти"
+[1610109297.147][INFO]: [f475f8a2c388aa8e9fe2e92ac16f08f2] COMMAND Navigate {
+   "url": "https://unicheck.com/login/education"
+}
+[1610109297.147][INFO]: Waiting for pending navigations...
+[1610109297.150][INFO]: Done waiting for pending navigations. Status: ok
+[1610109297.210][INFO]: Waiting for pending navigations...
+[1610109297.512][INFO]: Done waiting for pending navigations. Status: ok
+[1610109297.512][INFO]: [f475f8a2c388aa8e9fe2e92ac16f08f2] RESPONSE Navigate
+[1610109297.621][INFO]: [f475f8a2c388aa8e9fe2e92ac16f08f2] COMMAND FindElement {
+   "using": "css selector",
+   "value": "//input[@name='email']"
+}
+[1610109297.679][INFO]: Waiting for pending navigations...
+[1610109297.738][INFO]: Done waiting for pending navigations. Status: ok
+[1610109297.758][INFO]: Waiting for pending navigations...
+[1610109297.759][INFO]: Done waiting for pending navigations. Status: ok
+[1610109297.759][INFO]: [f475f8a2c388aa8e9fe2e92ac16f08f2] RESPONSE FindElement ERROR invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=87.0.4280.141)
+[1610109297.781][INFO]: [f475f8a2c388aa8e9fe2e92ac16f08f2] COMMAND Quit {
+
+}
+[1610109297.908][INFO]: [f475f8a2c388aa8e9fe2e92ac16f08f2] RESPONSE Quit
