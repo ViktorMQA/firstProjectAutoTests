@@ -25,6 +25,7 @@ public class LibraryPage {
             emptyTrashConfirmButton = $x("//button[contains(text(), ' Empty Trash ') and @class='primary']"),
             emptyTrashSentence = $x("//div[contains(text(), 'The Trash is empty')]"),
             restoreButton = $x("//button[contains(text(), 'Restore')]"),
+            restoreButtonTestGit = $x("//button[contains(text(), 'Restore')]"),
             thereIssNothingHereSentence = $x("//div[contains(text(), 'There')]");
 
     public LibraryPage() {
