@@ -1,5 +1,7 @@
-import com.codeborne.selenide.Selenide;
+package tests;
+
 import org.junit.Test;
+import pages.*;
 
 public class MainTii {
 
