@@ -1,3 +1,5 @@
+package learnAutomation;
+
 import com.codeborne.selenide.Selenide;
 import org.junit.Assert;
 import org.junit.Test;

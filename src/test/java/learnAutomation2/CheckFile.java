@@ -1,3 +1,5 @@
+package learnAutomation2;
+
 import org.junit.Test;
 
 import static com.codeborne.selenide.Selenide.$x;

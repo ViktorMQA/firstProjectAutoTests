@@ -1,3 +1,7 @@
+import learnAutomation.FileUpload;
+import learnAutomation2.CheckFile;
+import learnAutomation2.LogInEdu;
+import learnAutomation2.OpenLogFormSetEnCoocie;
 import org.junit.Test;
 
 

@@ -1,3 +1,5 @@
+package learnAutomation2;
+
 import com.codeborne.selenide.Condition;
 import com.codeborne.selenide.WebDriverRunner;
 import org.junit.Test;

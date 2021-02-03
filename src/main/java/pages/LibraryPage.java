@@ -27,8 +27,13 @@ public class LibraryPage {
             emptyTrashConfirmButton = $x("//button[contains(text(), ' Empty Trash ') and @class='primary']"),
             emptyTrashSentence = $x("//div[contains(text(), 'The Trash is empty')]"),
             restoreButton = $x("//button[contains(text(), 'Restore')]"),
-            restoreButtonTestGit = $x("//button[contains(text(), 'Restore')]"),
-            thereIssNothingHereSentence = $x("//div[contains(text(), 'There')]");
+            thereIssNothingHereSentence = $x("//div[contains(text(), 'There')]"),
+            addFolderButton = $x("//button[contains(text(), 'Add Folder')]"),
+            inputFieldNewFolderPopUp = $x("//input[@name = 'folder-name']"),
+            addButtonNewFolderPopUp = $x("//button[text()= 'Add']"),
+            checkingFolderСreation = $x("//span[@title= 'New folder']"),
+            editButton = $x("(//button[contains(text(), 'Edit')])[1]"),
+            saveButtonNewFolderPopUp = $x("//button[text() = 'Save']");
 
     public LibraryPage() {
         uploadButton.shouldBe(Condition.appear);
@@ -65,15 +70,34 @@ public class LibraryPage {
 
     }
 
-    public void fileDeleteFromTrash() throws InterruptedException {
-        librarySelectAllCheckbox.click();
-        trashButton.shouldBe(Condition.appear).click();
-        thereIssNothingHereSentence.shouldBe(Condition.appear);
+//    public void fileDeleteFromTrash() throws InterruptedException {
+//        librarySelectAllCheckbox.click();
+//        trashButton.shouldBe(Condition.appear).click();
+//        thereIssNothingHereSentence.shouldBe(Condition.appear);
+//        trashMenuButton.click();
+//        emptyTrashButton.shouldBe(Condition.appear).click();
+//        emptyTrashConfirmButton.shouldBe(Condition.appear).click();
+//        emptyTrashSentence.shouldBe(Condition.appear);
+//    }
+
+    public void  emptyingTrash(){
         trashMenuButton.click();
         emptyTrashButton.shouldBe(Condition.appear).click();
-        // Selenide.switchTo().alert().accept();
         emptyTrashConfirmButton.shouldBe(Condition.appear).click();
         emptyTrashSentence.shouldBe(Condition.appear);
+    }
+
+    public void createAndRenameFolder() {
+        addFolderButton.click();
+        inputFieldNewFolderPopUp.shouldBe(Condition.appear).sendKeys("New folder");
+        addButtonNewFolderPopUp.click();
+        checkingFolderСreation.shouldBe(Condition.appear);
+        librarySelectAllCheckbox.click();
+        editButton.click();
+        inputFieldNewFolderPopUp.sendKeys("rename");
+        saveButtonNewFolderPopUp.click();
+        trashButton.click();
+
     }
 
 }

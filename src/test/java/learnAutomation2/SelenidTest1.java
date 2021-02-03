@@ -1,3 +1,5 @@
+package learnAutomation2;
+
 import com.codeborne.selenide.Condition;
 import org.junit.Test;
 import org.openqa.selenium.By;

@@ -1,3 +1,5 @@
+package learnAutomation;
+
 import org.hamcrest.Condition;
 import org.junit.Test;
 import org.openqa.selenium.By;
