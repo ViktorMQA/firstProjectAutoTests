@@ -36,7 +36,7 @@ public class LibraryPage {
             saveButtonNewFolderPopUp = $x("//button[text() = 'Save']");
 
     public LibraryPage() {
-        uploadButton.shouldBe(Condition.appear);
+        uploadButton.shouldBe(Condition.appear, Duration.ofMillis(6000l));
     }
 
     public void uploadFile() throws InterruptedException {
@@ -90,8 +90,8 @@ public class LibraryPage {
     public void createAndRenameFolder() {
         addFolderButton.click();
         inputFieldNewFolderPopUp.shouldBe(Condition.appear).sendKeys("New folder");
-        addButtonNewFolderPopUp.click();
-        checkingFolderСreation.shouldBe(Condition.appear);
+        addButtonNewFolderPopUp.shouldBe(Condition.enabled).click();
+        checkingFolderСreation.shouldBe(Condition.appear, Duration.ofMillis(6000l));
         librarySelectAllCheckbox.click();
         editButton.click();
         inputFieldNewFolderPopUp.sendKeys("rename");

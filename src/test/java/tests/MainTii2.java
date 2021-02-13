@@ -6,6 +6,8 @@ import pages.*;
 
 public class MainTii2 {
 
+    // Login - create folder -rename folder - delete folder
+
     @Test
     public void main() throws InterruptedException {
         BasePage basePage = new BasePage();

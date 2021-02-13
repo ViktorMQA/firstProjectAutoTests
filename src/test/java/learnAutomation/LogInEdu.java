@@ -1,13 +1,4 @@
-package learnAutomation2;
-
-import com.codeborne.selenide.Condition;
-import com.codeborne.selenide.WebDriverRunner;
-import org.junit.Test;
-import org.openqa.selenium.By;
-import org.openqa.selenium.Cookie;
-import org.openqa.selenium.WebElement;
-
-import java.io.File;
+package learnAutomation;
 
 import static com.codeborne.selenide.Selenide.*;
 

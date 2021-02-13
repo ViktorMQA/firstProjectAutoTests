@@ -1,4 +1,4 @@
-package learnAutomation2;
+package learnAutomation;
 
 import com.codeborne.selenide.Condition;
 import com.codeborne.selenide.WebDriverRunner;
